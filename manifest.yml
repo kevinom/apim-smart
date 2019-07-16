@@ -1,6 +1,4 @@
 applications:
-- services:
-  - Monitoring and Analytics
   disk_quota: 1024M
   host: apim-smart
   name: APIM SMart
