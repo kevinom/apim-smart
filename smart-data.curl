@@ -1,0 +1,81 @@
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"apples\",
+      \"name\": \"apples\",
+      \"description\": \"A waxy fruit grown in Europe and Central Asia.\",
+      \"image\": \"\/images\/apples.png\",
+      \"price\": \"1.49\",     
+      \"rating\": \"3\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"asparagus\",    
+      \"name\": \"asparagus\",     
+      \"description\": \"A spring vegetable found in Europe and Africa.\",
+      \"image\": \"\/images\/asparagus.png\",
+      \"price\": \"4.99\",     
+      \"rating\": \"3\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"bananas\",   
+      \"name\": \"bananas\",
+      \"description\": \"A source of potassium from the tropics.\",
+      \"image\": \"\/images\/bananas.png\",
+      \"price\": \"0.69\",        
+      \"rating\": \"2\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"carrots\",
+      \"name\": \"carrots\",
+      \"description\": \"A root vegetable found in Europe and Asia.\",
+      \"image\": \"\/images\/carrots.png\",
+      \"price\": \"2.99\",
+      \"rating\": \"4\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"cheese\",   
+      \"name\": \"cheese\",        
+      \"description\": \"An essential ingredient in a hamburger or a sandwich.\",
+      \"image\": \"\/images\/cheeses.png\", 
+      \"price\": \"9.69\",       
+      \"rating\": \"5\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"eggs\",   
+      \"name\": \"eggs\",
+      \"description\": \"A source of protein from chicken.\",
+      \"image\": \"\/images\/eggs.png\",
+      \"price\": \"2.49\",
+      \"rating\": \"4\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"milk\",    
+      \"name\": \"milk\",
+      \"description\": \"A source of calcium from cows.\",
+      \"image\": \"\/images\/milk.png\",
+      \"price\": \"4.69\",
+      \"rating\": \"2\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"oranges\",    
+      \"name\": \"oranges\",
+      \"description\": \"A sweet citrus fruit grown in a tropical area.\",
+      \"image\": \"\/images\/oranges.png\",
+      \"price\": \"1.49\",        
+      \"rating\": \"5\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"pears\",
+      \"name\": \"pears\",
+      \"description\": \"A pale sweet fruit grown in Europe and Africa.\",
+      \"image\": \"\/images\/pears.png\",
+      \"price\": \"2.49\",    
+      \"rating\": \"1\"
+    }" "http://0.0.0.0:3000/smart/v1/products"
+curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+      \"product_id\": \"potatoes\",    
+      \"name\": \"potatoes\",
+      \"description\": \"A starchy crop from Europe and the Americas.\",
+      \"image\": \"\/images\/potatoes.png\",
+      \"price\": \"0.99\",        
+      \"rating\": \"4\"
+     }" "http://0.0.0.0:3000/smart/v1/products"
+ 
