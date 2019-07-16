@@ -1,6 +1,6 @@
 applications:
   disk_quota: 1024M
-  host: apim-smart
+  host: kw-smart
   name: APIM SMart
   path: .
   domain: mybluemix.net
