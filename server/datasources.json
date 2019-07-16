@@ -1,0 +1,11 @@
+{
+  "memory": {
+    "name": "memory",
+    "connector": "memory",
+    "file": "./server/memory-db/data.json"
+  },
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  }
+}

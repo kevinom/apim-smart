@@ -1,0 +1,35 @@
+{
+  "name": "store",
+  "description": "store information",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "store_id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "address": {
+      "type": "address"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "inventory": {
+      "type": "hasMany",
+      "model": "inventory",
+      "foreignKey": "store_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

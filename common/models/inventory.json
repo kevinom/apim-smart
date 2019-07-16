@@ -1,0 +1,26 @@
+{
+  "name": "inventory",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "inventory_id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    },
+    "product_id": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
